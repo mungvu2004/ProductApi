@@ -1,12 +1,362 @@
 {
   "Version": 1,
-  "Hash": "/xhn14U/FAPOHYl33sGbeb9c6rLB+2WOwTbGUkypva0=",
+  "Hash": "d7j7S7zgTP+q+Idox/5WhQiPXPCgeKdYvsgrzrTjXPI=",
   "Source": "ProductApi",
   "BasePath": "_content/ProductApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "ProductApi\\wwwroot",
+      "Source": "ProductApi",
+      "ContentRoot": "D:\\C++\\ProductApi\\wwwroot\\",
+      "BasePath": "_content/ProductApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\C++\\ProductApi\\obj\\Debug\\net9.0\\compressed\\2seph11wn5-9gi74xix48.gz",
+      "SourceId": "ProductApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C++\\ProductApi\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ProductApi",
+      "RelativePath": "index#[.{fingerprint=9gi74xix48}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\C++\\ProductApi\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "kn70tiqx57",
+      "Integrity": "wMtFUcHPqXcmPJt1Y5nBGt0LtQ2O1dIBRH5YvZhXZt4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\C++\\ProductApi\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\C++\\ProductApi\\wwwroot\\index.html",
+      "SourceId": "ProductApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C++\\ProductApi\\wwwroot\\",
+      "BasePath": "_content/ProductApi",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9gi74xix48",
+      "Integrity": "KWHUb2hLid0NhQqHXZP1ommiYikDBvEUXA1KwzzGz2M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.9gi74xix48.html",
+      "AssetFile": "D:\\C++\\ProductApi\\obj\\Debug\\net9.0\\compressed\\2seph11wn5-9gi74xix48.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000831946755"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1201"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMtFUcHPqXcmPJt1Y5nBGt0LtQ2O1dIBRH5YvZhXZt4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 02:44:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"KWHUb2hLid0NhQqHXZP1ommiYikDBvEUXA1KwzzGz2M=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9gi74xix48"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KWHUb2hLid0NhQqHXZP1ommiYikDBvEUXA1KwzzGz2M="
+        }
+      ]
+    },
+    {
+      "Route": "index.9gi74xix48.html",
+      "AssetFile": "D:\\C++\\ProductApi\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KWHUb2hLid0NhQqHXZP1ommiYikDBvEUXA1KwzzGz2M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 02:44:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9gi74xix48"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KWHUb2hLid0NhQqHXZP1ommiYikDBvEUXA1KwzzGz2M="
+        }
+      ]
+    },
+    {
+      "Route": "index.9gi74xix48.html.gz",
+      "AssetFile": "D:\\C++\\ProductApi\\obj\\Debug\\net9.0\\compressed\\2seph11wn5-9gi74xix48.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1201"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMtFUcHPqXcmPJt1Y5nBGt0LtQ2O1dIBRH5YvZhXZt4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 02:44:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9gi74xix48"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMtFUcHPqXcmPJt1Y5nBGt0LtQ2O1dIBRH5YvZhXZt4="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "D:\\C++\\ProductApi\\obj\\Debug\\net9.0\\compressed\\2seph11wn5-9gi74xix48.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000831946755"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1201"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMtFUcHPqXcmPJt1Y5nBGt0LtQ2O1dIBRH5YvZhXZt4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 02:44:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"KWHUb2hLid0NhQqHXZP1ommiYikDBvEUXA1KwzzGz2M=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KWHUb2hLid0NhQqHXZP1ommiYikDBvEUXA1KwzzGz2M="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "D:\\C++\\ProductApi\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KWHUb2hLid0NhQqHXZP1ommiYikDBvEUXA1KwzzGz2M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 02:44:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KWHUb2hLid0NhQqHXZP1ommiYikDBvEUXA1KwzzGz2M="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "D:\\C++\\ProductApi\\obj\\Debug\\net9.0\\compressed\\2seph11wn5-9gi74xix48.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1201"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMtFUcHPqXcmPJt1Y5nBGt0LtQ2O1dIBRH5YvZhXZt4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 02:44:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMtFUcHPqXcmPJt1Y5nBGt0LtQ2O1dIBRH5YvZhXZt4="
+        }
+      ]
+    }
+  ]
 }

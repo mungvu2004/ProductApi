@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\xampp\\htdocs\\ProductApi\\ProductApi.csproj": {}
+    "D:\\C++\\ProductApi\\ProductApi.csproj": {}
   },
   "projects": {
-    "D:\\xampp\\htdocs\\ProductApi\\ProductApi.csproj": {
+    "D:\\C++\\ProductApi\\ProductApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\xampp\\htdocs\\ProductApi\\ProductApi.csproj",
+        "projectUniqueName": "D:\\C++\\ProductApi\\ProductApi.csproj",
         "projectName": "ProductApi",
-        "projectPath": "D:\\xampp\\htdocs\\ProductApi\\ProductApi.csproj",
+        "projectPath": "D:\\C++\\ProductApi\\ProductApi.csproj",
         "packagesPath": "C:\\Users\\mxuan\\.nuget\\packages\\",
-        "outputPath": "D:\\xampp\\htdocs\\ProductApi\\obj\\",
+        "outputPath": "D:\\C++\\ProductApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.2, )"
